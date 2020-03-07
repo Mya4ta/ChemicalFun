@@ -1,0 +1,6 @@
+{
+	"type": "OreBlock",
+	"name": "manganese",
+	"itemDrop": "manganese",
+	"variants": 3,
+}

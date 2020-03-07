@@ -1,0 +1,25 @@
+{
+	"name": "[#ffcf40]nichrome[] smelter",
+	"type": "GenericCrafter",
+	"description": "ты шооо это зе бест матириал фо домин печь",
+	"health": 300,
+	"size": 2,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.2,
+		"items":{
+			"items":[
+				{"item":"nichrome","amount":2}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "aluminum_ing", "amount": 150 },
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "steel", "amount": 60 },
+	],
+	"category": "crafting",
+	"outputItem":{ "amount": 1, "item": "nichrome_ing" },
+   
+}

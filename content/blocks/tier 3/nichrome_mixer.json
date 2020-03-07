@@ -1,0 +1,30 @@
+{
+	"name": "[#ffcf40]nichrome[] mixer",
+	"type": "GenericCrafter",
+	"description": "mixes a bunch of resources so you can get nichrome for further processing",
+	"health": 300,
+	"size": 4,
+	"craftTime": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.4,
+		"items":{
+			"items":[
+				{"item":"nickel","amount":5},
+				{"item":"chromium","amount":3},
+				{"item":"silicon","amount":3},
+				{"item":"manganese","amount":3},
+				{"item":"aluminum_ing","amount":3}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "aluminum_ing", "amount": 150 },
+		{ "item": "silicon", "amount": 500 },
+		{ "item": "steel", "amount": 320 },
+		
+	],
+	"category": "crafting",
+	"outputItem":{ "amount": 25, "item": "nichrome" },
+   
+}

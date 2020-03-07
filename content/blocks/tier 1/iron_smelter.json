@@ -1,0 +1,25 @@
+{
+	"name": "Iron foundry",
+	"type": "GenericCrafter",
+	"description": "casts you the purest iron",
+	"health": 300,
+	"size": 2,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.4,
+		"items":{
+			"items":[
+				{"item":"iron","amount":1}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "stone", "amount": 50 },
+		{ "item": "bronze", "amount": 250 },
+	],
+	"category": "crafting",
+	"outputItem":{ "amount": 1, "item": "iron_ing" },
+   
+}

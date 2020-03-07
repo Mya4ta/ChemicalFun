@@ -1,0 +1,16 @@
+{
+"name":"small wall [gray]steel",
+"descriptiom":"its small wall",
+"type": "Wall",
+
+"health": 1700,
+	
+"size": 1,
+	
+"requirements": [
+		
+{ "item": "steel", "amount": 12 }
+	],
+	
+"category": "defense",	
+}

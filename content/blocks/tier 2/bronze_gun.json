@@ -1,0 +1,49 @@
+{
+	"type": "burstTurret",
+	"name": "Bronzegun",
+	"description": "Bullets sometimes even bronze black",
+	"health": 2500,
+	"size": 3,
+	"reload": 20,
+	"range": 200,
+	"ammoUseEffect": "shellEjectSmall",
+	"rotatespeed": 4.5,
+	"shootSound": "release",
+	"ammo": {
+		"bronze": {
+			"speed": 11,
+			"damage": 80,
+			"reloadMultiplier": 0.8,
+			"bulletWidth": 10,
+			"bulletHeight": 12,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1,
+			"status": "burning",
+			"statusDuration": 480,
+			"burstSpacing": 3,
+			"shoots": 3
+		},
+		"bronze_dark": {
+			"speed": 11,
+			"damage": 160,
+			"bulletWidth": 10,
+			"bulletHeight": 12,
+			"homingPower": 2.5,
+			"homingRange": 100,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1,
+			"status": "burning",
+			"statusDuration": 480,
+			"burstSpacing": 3,
+			"shoots": 3
+		},
+	},
+	"requirements": [
+		{ "item": "bronze_dark", "amount": 50 },
+		{ "item": "lead", "amount": 250 },
+	],
+	"category": "turret",
+	"research": "cyclone"
+}

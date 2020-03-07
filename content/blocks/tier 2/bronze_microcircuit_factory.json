@@ -1,0 +1,27 @@
+{
+	"name": "Microcircuit plant made of [#DD9256]bronze",
+	"type": "GenericCrafter",
+	"description": "microcircuits are required for the whole electric, for example: batteries, turrets and some plants",
+	"health": 300,
+	"size": 2,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2,
+		"items":{
+			"items":[
+				{"item":"bronze","amount":6},
+				{"item":"nickel","amount":2},
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 120 },
+		{ "item": "stone", "amount": 250 },
+		{ "item": "copper", "amount": 250 },
+		{ "item": "bronze_dark", "amount": 350 },
+	],
+	"category": "crafting",
+	"outputItem":{ "amount": 1, "item": "bronze_microcircuit" },
+   
+}

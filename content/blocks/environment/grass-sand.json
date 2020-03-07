@@ -1,0 +1,7 @@
+{
+	"type": "floor",
+	"name": "grass",
+	"itemDrop": "flowers",
+	"variants": 3,
+	"playerUnmineable": true
+}

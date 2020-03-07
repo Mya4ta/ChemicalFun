@@ -1,0 +1,17 @@
+{
+"name":"stell vault",
+"descriptiom":"needed to store all the trash from my mod",
+"type": "Vault",
+
+"health": 3500,
+	
+"size": 3,
+"itemCapacity":"2300",
+	
+"requirements": [
+		
+{ "item": "steel", "amount": 250 }
+	],
+	
+"category": "effect",	
+}

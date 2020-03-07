@@ -1,0 +1,49 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "Bronze Arterelia",
+	"description": "A good turret but there is one problem, you have to organize a whole factory for the production of dark bronze!",
+	"health": 1500,
+	"size": 3,
+	"reload": 100,
+	"range": 350,
+	"ammoUseEffect": "shellEjectSmall",
+	"rotatespeed": 4.5,
+	"shootSound": "release",
+	"ammo": {
+		"bronze": {
+			"speed": 11,
+			"damage": 430,
+			"reloadMultiplier": 0.8,
+			"bulletWidth": 10,
+			"bulletHeight": 12,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1,
+			"status": "burning",
+			"statusDuration": 480,
+			"burstSpacing": 3,
+			"shoots": 3
+		},
+		"bronze_dark": {
+			"speed": 11,
+			"damage": 560,
+			"bulletWidth": 10,
+			"bulletHeight": 12,
+			"homingPower": 2.5,
+			"homingRange": 100,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1,
+			"status": "burning",
+			"statusDuration": 480,
+			"burstSpacing": 3,
+			"shoots": 3
+		},
+	},
+	"requirements": [
+		{ "item": "bronze_dark", "amount": 500 },
+		{ "item": "lead", "amount": 250 },
+	],
+	"category": "turret",
+	"research": "cyclone"
+}

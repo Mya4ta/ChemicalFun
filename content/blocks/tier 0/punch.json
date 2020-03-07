@@ -1,0 +1,22 @@
+{
+	"name": "punch",
+	"type": "GenericCrafter",
+	"description": "needed to speed up plants for growing bananas and all that",
+	"health": 300,
+	"size": 2,
+	"craftTime": 350,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items":{
+			"items":[
+				{"item":"flowers","amount":10}
+				{"item":"ash","amount":5}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "stone", "amount": 50 },
+	],
+	"category": "crafting",
+	"outputItem": {"item": "fertilizer", "amount": 10}}

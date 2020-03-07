@@ -1,0 +1,25 @@
+{
+	"name": "coal chopper",
+	"type": "GenericCrafter",
+	"description": "will grind coal for your steel, P.S you need a lot of crushed coal",
+	"health": 300,
+	"size": 2,
+	"craftTime": 250,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1,
+		"items":{
+			"items":[
+				{"item":"coal","amount":10}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "stone", "amount": 50 },
+		{ "item": "bronze", "amount": 250 },
+	],
+	"category": "crafting",
+	"outputItem":{ "amount": 10, "item": "shredded_coal" },
+   
+}

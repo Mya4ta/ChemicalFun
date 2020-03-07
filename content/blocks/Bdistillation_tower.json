@@ -1,0 +1,23 @@
+{
+"type": "GenericCrafter",
+"name": "[red]BETA[] Primitive Distillation Tower",
+"description": "barely wrote the name but, she makes good things like gasoline or something else there",
+"outputItem": {"item": "copper", "amount": 1},
+"size": 3,
+"hasPower": true,
+"hasItems": true,
+"craftTime": 240,
+"updateEffect": "smeltsmoke",
+"consumes": {
+	"power": 4,
+"liquid": {"liquid": "oil", "amount": 1}
+},
+"requirements": [
+{"item": "lead", "amount": 200 },
+{ "item": "silicon", "amount": 120 },
+{ "item": "thorium", "amount": 60 },
+],
+"category": "crafting",
+"idleSound": "respawning",
+"idleSoundVolume": 0.5
+}

@@ -1,0 +1,16 @@
+{
+"name":"wall [gray]steel",
+"descriptiom":"its a common wall",
+"type": "Wall",
+
+"health": 3500,
+	
+"size": 2,
+	
+"requirements": [
+		
+{ "item": "steel", "amount": 35 }
+	],
+	
+"category": "defense",	
+}

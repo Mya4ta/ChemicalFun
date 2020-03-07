@@ -1,0 +1,26 @@
+{
+	"name": "aluminum centrifuge",
+	"type": "GenericCrafter",
+	"description": "separates the aluminum ore from the stone and the stone itself magically disappears",
+	"health": 300,
+	"size": 2,
+	"craftTime": 90,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 3,
+		"items":{
+			"items":[
+				{"item":"aluminum_pure","amount":3}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 250 },
+		{ "item": "thorium", "amount": 150 },
+		{ "item": "silicon", "amount": 65 }
+		{ "item": "bronze_dark", "amount": 65 },
+	],
+	"category": "crafting",
+	"outputItem":{ "amount": 1, "item": "aluminum_nuget" },
+   
+}

@@ -1,0 +1,17 @@
+{
+"name":"[#DD9256]bronze[] vault",
+"descriptiom":"needed to store all the trash from my mod",
+"type": "Vault",
+
+"health": 800,
+	
+"size": 3,
+"itemCapacity":"500",
+	
+"requirements": [
+		
+{ "item": "bronze", "amount": 250 }
+	],
+	
+"category": "effect",	
+}

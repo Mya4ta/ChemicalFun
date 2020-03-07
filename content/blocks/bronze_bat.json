@@ -1,0 +1,14 @@
+{
+	"type": "battery",
+	"name": "bronze battery",
+	"size": 3,
+	"health": 250,
+	"category": "power",
+	"requirements": [
+		{ "item": "bronze", "amount": 120 },
+		{ "item": "bronze_microcircuit", "amount": 10 },
+	],
+	"consumes": {
+		 "powerBuffered": 35000,
+	},
+}

@@ -1,0 +1,23 @@
+{
+	"name": "Ash Smelter",
+	"type": "GenericCrafter",
+	"description": "Burns coal ??!?!?! but he does not give ashes, ideally to burn a tree, but he is not in the game :( although MODS AND FASHION FEES ARE NEEDED? But do not wait for the tree!",
+	"health": 300,
+	"size": 2,
+	"craftTime": 250,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items":{
+			"items":[
+				{"item":"coal","amount":10}
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "stone", "amount": 50 },
+	],
+	"category": "crafting",
+	"outputItem":{ "amount": 5, "item": "ash" },
+   
+}

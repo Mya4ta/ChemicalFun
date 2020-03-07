@@ -1,0 +1,6 @@
+{
+	"type": "OreBlock",
+	"name": "Tin",
+	"itemDrop": "tin",
+	"variants": 3,
+}

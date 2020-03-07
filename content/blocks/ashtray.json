@@ -1,0 +1,51 @@
+{
+	"type": "burstTurret",
+	"name": "Puletron",
+	"description": "Steel bullets though steel itself",
+	"health": 2500,
+	"size": 3,
+	"reload": 30,
+	"range": 300,
+	"ammoUseEffect": "shellEjectSmall",
+	"rotatespeed": 4.5,
+	"shootSound": "missile",
+	"ammo": {
+		"graphite": {
+			"speed": 11,
+			"damage": 60,
+			"reloadMultiplier": 0.8,
+			"bulletWidth": 10,
+			"bulletHeight": 12,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1,
+			"status": "burning",
+			"statusDuration": 480,
+			"burstSpacing": 3,
+			"shoots": 3
+		},
+		"steel": {
+			"speed": 11,
+			"damage": 160,
+			"bulletWidth": 10,
+			"bulletHeight": 12,
+			"homingPower": 2.5,
+			"homingRange": 100,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1,
+			"status": "burning",
+			"statusDuration": 480,
+			"burstSpacing": 3,
+			"shoots": 3
+		},
+	},
+	"requirements": [
+		{ "item": "surge-alloy", "amount": 50 },
+		{ "item": "silicon", "amount": 150 },
+		{ "item": "lead", "amount": 250 },
+		{ "item": "steel", "amount": 30 },
+	],
+	"category": "turret",
+	"research": "cyclone"
+}

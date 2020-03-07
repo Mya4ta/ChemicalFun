@@ -1,0 +1,17 @@
+{
+"name":"aluminum vault",
+"descriptiom":"needed to store all the trash from my mod",
+"type": "Vault",
+
+"health": 500,
+	
+"size": 3,
+"itemCapacity":"3500",
+	
+"requirements": [
+		
+{ "item": "aluminum_ing", "amount": 250 }
+	],
+	
+"category": "effect",	
+}
